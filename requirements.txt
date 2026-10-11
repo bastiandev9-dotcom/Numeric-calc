@@ -1,0 +1,27 @@
+# Kalkulator Metode Numerik ULTIMATE - Dependencies
+# Install dengan: pip install -r requirements.txt
+
+# WAJIB: parsing dan komputasi simbolik matematika
+sympy>=1.12
+
+# WAJIB: visualisasi grafik
+matplotlib>=3.7.0
+
+# WAJIB: komputasi numerik
+numpy>=1.24.0
+
+# WAJIB: export CSV dan Excel
+pandas>=2.0.0
+openpyxl>=3.1.0
+
+# WAJIB: export GIF animasi
+Pillow>=10.0.0
+
+# WAJIB: export PDF laporan
+reportlab>=4.0.0
+
+# Tkinter biasanya sudah built-in dengan Python, 
+# tapi jika menggunakan Linux minimal, install:
+# Ubuntu/Debian: sudo apt-get install python3-tk
+# Fedora: sudo dnf install python3-tkinter
+# macOS: brew install python-tk (jika pakai Homebrew Python)
